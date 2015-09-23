@@ -69,8 +69,8 @@
 	5)
 	double s, n, x;
 
-n = Double.valueOf(args[0]);
-s = x = 1;        
+	n = Double.valueOf(args[0]);
+	s = x = 1;        
 
 	for (int i = 0; i < n; i++){
 	x += 2;
