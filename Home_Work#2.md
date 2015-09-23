@@ -85,8 +85,8 @@
 
 //////////////////
 6)
-	double result, x, n, cosx;
-	x = Double.valueOf(args[0]);
+double result, x, n, cosx;
+x = Double.valueOf(args[0]);
  	n = Double.valueOf(args[1]);
  	result = 1;
  	cosx = Math.toRadians(x);	
