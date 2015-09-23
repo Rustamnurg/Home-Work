@@ -80,7 +80,6 @@ s = x = 1;
 	else {
 		s += 1 / (x * x);
 	}
-}
 System.out.print(s);
 
 
