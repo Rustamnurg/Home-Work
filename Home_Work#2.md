@@ -80,20 +80,20 @@
 	else {
 		s += 1 / (x * x);
 	}
-System.out.print(s);
+	System.out.print(s);
 
 
 //////////////////
 6)
-double result, x, n, cosx;
- x = Double.valueOf(args[0]);
- n = Double.valueOf(args[1]);
- result = 1;
- cosx = Math.toRadians(x);	
- cosx = Math.cos(cosx);
-
- for (int i = 0; i < n; i++){
+	double result, x, n, cosx;
+	x = Double.valueOf(args[0]);
+ 	n = Double.valueOf(args[1]);
+ 	result = 1;
+ 	cosx = Math.toRadians(x);	
+ 	cosx = Math.cos(cosx);
+	
+	for (int i = 0; i < n; i++){
  	result *= (x + cosx);
- }
- result *= cosx;
- System.out.println(result);
+	}
+ 	result *= cosx;
+ 	System.out.println(result);
