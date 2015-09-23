@@ -29,7 +29,7 @@
 		for(int j = 1; j < 10; j++) {
 			System.out.print(j + "x" + i + "=" + i * j + "    "); 
 		}
-		
+		}
 		
 	//////////////////
 	4)A
@@ -84,9 +84,9 @@ s = x = 1;
 System.out.print(s);
 
 
-	//////////////////
-	6)
-	double result, x, n, cosx;
+//////////////////
+6)
+double result, x, n, cosx;
  x = Double.valueOf(args[0]);
  n = Double.valueOf(args[1]);
  result = 1;
